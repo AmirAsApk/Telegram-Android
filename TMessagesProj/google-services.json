@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "880879293473",
+    "firebase_url": "https://telegramsampleapp-beta.firebaseio.com",
+    "project_id": "telegramsampleapp-beta",
+    "storage_bucket": "telegramsampleapp-beta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880879293473:android:3bb130026e73687b",
+        "android_client_info": {
+          "package_name": "org.verysampletelegram.messenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "880879293473-0s47nuigcqfdqd9v5ht78pnmkjhjvtlt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHjpgdjyzew9sCEt01D_LXFuUlJmj7MUg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

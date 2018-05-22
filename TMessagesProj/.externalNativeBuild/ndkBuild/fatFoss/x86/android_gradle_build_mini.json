@@ -1,0 +1,47 @@
+{
+  "buildFiles": [
+    "/Users/anatoly/StudioProjects/Telegram-Android/TMessagesProj/jni/Android.mk",
+    "/Users/anatoly/StudioProjects/Telegram-Android/TMessagesProj/jni/Application.mk"
+  ],
+  "cleanCommands": [
+    "/Users/anatoly/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/anatoly/StudioProjects/Telegram-Android/TMessagesProj/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/anatoly/StudioProjects/Telegram-Android/TMessagesProj/jni/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/anatoly/StudioProjects/Telegram-Android/TMessagesProj/build/intermediates/ndkBuild/fat/foss/obj NDK_LIBS_OUT\u003d/Users/anatoly/StudioProjects/Telegram-Android/TMessagesProj/build/intermediates/ndkBuild/fat/foss/lib NDK_APPLICATION_MK:\u003djni/Application.mk APP_PLATFORM:\u003dandroid-14 clean"
+  ],
+  "libraries": {
+    "sqlite-fatFoss-x86": {
+      "artifactName": "sqlite",
+      "buildCommand": "/Users/anatoly/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/anatoly/StudioProjects/Telegram-Android/TMessagesProj/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/anatoly/StudioProjects/Telegram-Android/TMessagesProj/jni/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/anatoly/StudioProjects/Telegram-Android/TMessagesProj/build/intermediates/ndkBuild/fat/foss/obj NDK_LIBS_OUT\u003d/Users/anatoly/StudioProjects/Telegram-Android/TMessagesProj/build/intermediates/ndkBuild/fat/foss/lib NDK_APPLICATION_MK:\u003djni/Application.mk APP_PLATFORM:\u003dandroid-14 /Users/anatoly/StudioProjects/Telegram-Android/TMessagesProj/build/intermediates/ndkBuild/fat/foss/obj/local/x86/libsqlite.a",
+      "abi": "x86",
+      "output": "/Users/anatoly/StudioProjects/Telegram-Android/TMessagesProj/build/intermediates/ndkBuild/fat/foss/obj/local/x86/libsqlite.a"
+    },
+    "tgnet-fatFoss-x86": {
+      "artifactName": "tgnet",
+      "buildCommand": "/Users/anatoly/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/anatoly/StudioProjects/Telegram-Android/TMessagesProj/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/anatoly/StudioProjects/Telegram-Android/TMessagesProj/jni/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/anatoly/StudioProjects/Telegram-Android/TMessagesProj/build/intermediates/ndkBuild/fat/foss/obj NDK_LIBS_OUT\u003d/Users/anatoly/StudioProjects/Telegram-Android/TMessagesProj/build/intermediates/ndkBuild/fat/foss/lib NDK_APPLICATION_MK:\u003djni/Application.mk APP_PLATFORM:\u003dandroid-14 /Users/anatoly/StudioProjects/Telegram-Android/TMessagesProj/build/intermediates/ndkBuild/fat/foss/obj/local/x86/libtgnet.a",
+      "abi": "x86",
+      "output": "/Users/anatoly/StudioProjects/Telegram-Android/TMessagesProj/build/intermediates/ndkBuild/fat/foss/obj/local/x86/libtgnet.a"
+    },
+    "cpufeatures-fatFoss-x86": {
+      "artifactName": "cpufeatures",
+      "buildCommand": "/Users/anatoly/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/anatoly/StudioProjects/Telegram-Android/TMessagesProj/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/anatoly/StudioProjects/Telegram-Android/TMessagesProj/jni/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/anatoly/StudioProjects/Telegram-Android/TMessagesProj/build/intermediates/ndkBuild/fat/foss/obj NDK_LIBS_OUT\u003d/Users/anatoly/StudioProjects/Telegram-Android/TMessagesProj/build/intermediates/ndkBuild/fat/foss/lib NDK_APPLICATION_MK:\u003djni/Application.mk APP_PLATFORM:\u003dandroid-14 /Users/anatoly/StudioProjects/Telegram-Android/TMessagesProj/build/intermediates/ndkBuild/fat/foss/obj/local/x86/libcpufeatures.a",
+      "abi": "x86",
+      "output": "/Users/anatoly/StudioProjects/Telegram-Android/TMessagesProj/build/intermediates/ndkBuild/fat/foss/obj/local/x86/libcpufeatures.a"
+    },
+    "voip-fatFoss-x86": {
+      "artifactName": "voip",
+      "buildCommand": "/Users/anatoly/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/anatoly/StudioProjects/Telegram-Android/TMessagesProj/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/anatoly/StudioProjects/Telegram-Android/TMessagesProj/jni/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/anatoly/StudioProjects/Telegram-Android/TMessagesProj/build/intermediates/ndkBuild/fat/foss/obj NDK_LIBS_OUT\u003d/Users/anatoly/StudioProjects/Telegram-Android/TMessagesProj/build/intermediates/ndkBuild/fat/foss/lib NDK_APPLICATION_MK:\u003djni/Application.mk APP_PLATFORM:\u003dandroid-14 /Users/anatoly/StudioProjects/Telegram-Android/TMessagesProj/build/intermediates/ndkBuild/fat/foss/obj/local/x86/libvoip.a",
+      "abi": "x86",
+      "output": "/Users/anatoly/StudioProjects/Telegram-Android/TMessagesProj/build/intermediates/ndkBuild/fat/foss/obj/local/x86/libvoip.a"
+    },
+    "tmessages.27-fatFoss-x86": {
+      "artifactName": "tmessages.27",
+      "buildCommand": "/Users/anatoly/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/anatoly/StudioProjects/Telegram-Android/TMessagesProj/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/anatoly/StudioProjects/Telegram-Android/TMessagesProj/jni/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/anatoly/StudioProjects/Telegram-Android/TMessagesProj/build/intermediates/ndkBuild/fat/foss/obj NDK_LIBS_OUT\u003d/Users/anatoly/StudioProjects/Telegram-Android/TMessagesProj/build/intermediates/ndkBuild/fat/foss/lib NDK_APPLICATION_MK:\u003djni/Application.mk APP_PLATFORM:\u003dandroid-14 /Users/anatoly/StudioProjects/Telegram-Android/TMessagesProj/build/intermediates/ndkBuild/fat/foss/obj/local/x86/libtmessages.27.so",
+      "abi": "x86",
+      "output": "/Users/anatoly/StudioProjects/Telegram-Android/TMessagesProj/build/intermediates/ndkBuild/fat/foss/obj/local/x86/libtmessages.27.so"
+    },
+    "webp-fatFoss-x86": {
+      "artifactName": "webp",
+      "buildCommand": "/Users/anatoly/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/anatoly/StudioProjects/Telegram-Android/TMessagesProj/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/anatoly/StudioProjects/Telegram-Android/TMessagesProj/jni/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/anatoly/StudioProjects/Telegram-Android/TMessagesProj/build/intermediates/ndkBuild/fat/foss/obj NDK_LIBS_OUT\u003d/Users/anatoly/StudioProjects/Telegram-Android/TMessagesProj/build/intermediates/ndkBuild/fat/foss/lib NDK_APPLICATION_MK:\u003djni/Application.mk APP_PLATFORM:\u003dandroid-14 /Users/anatoly/StudioProjects/Telegram-Android/TMessagesProj/build/intermediates/ndkBuild/fat/foss/obj/local/x86/libwebp.a",
+      "abi": "x86",
+      "output": "/Users/anatoly/StudioProjects/Telegram-Android/TMessagesProj/build/intermediates/ndkBuild/fat/foss/obj/local/x86/libwebp.a"
+    }
+  }
+}
