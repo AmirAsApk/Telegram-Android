@@ -23,6 +23,7 @@ import android.os.Build;
 import android.os.Handler;
 import android.os.PowerManager;
 
+import com.appspector.sdk.AppSpector;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 
@@ -111,6 +112,7 @@ public class ApplicationLoader extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+        initAppSpector();
 
         applicationContext = getApplicationContext();
         NativeLoader.initNativeLibs(ApplicationLoader.applicationContext);
@@ -120,6 +122,12 @@ public class ApplicationLoader extends Application {
         applicationHandler = new Handler(applicationContext.getMainLooper());
 
         startPushService();
+    }
+
+    private void initAppSpector() {
+        AppSpector.build(this)
+                .withDefaultMonitors()
+                .run(BuildConfig.APPSPECTOR_API_KEY);
     }
 
     /*public static void sendRegIdToBackend(final String token) {
