@@ -2,12 +2,14 @@ version: 2
 jobs:
   build:
       docker:
-        - image: lakoo/android-ndk:26-27.0.3-r17
+        - image: bitriseio/android-ndk:v2018_06_02-18_55-b1029
       working_directory: ~/code
       environment:
         JVM_OPTS: -Xmx3200m
       steps:
         - checkout
+        - run: git submodule init
+        - run: git fetch --recurse-submodules
         - run:
             name: Assemble build
             command: ./gradlew :TMessagesProj:assembleArmv7AppSpectorDebug
